@@ -8,8 +8,8 @@ app.use(express.json()); // Allow parsing of JSON data
 
 // --- DATABASE CONFIGURATION ---
 const dbConfig = {
-    user: "system",        // Replace with your Oracle Username
-    password: "system123",    // Replace with your Oracle Password
+    user: "admin",        // Replace with your Oracle Username
+    password: "admin123",    // Replace with your Oracle Password
     connectString: "localhost:1521/XE" // Replace with your connection string (e.g., Host:Port/ServiceName)
 };
 
